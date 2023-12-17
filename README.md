@@ -7,5 +7,5 @@ Include dettagli come popolarità, genere, età, numero di follower e paese.
 
 
 ## Documentazione
-https://www.kaggle.com/datasets/ per la ricerca di un dataset 
-https://www.kaggle.com/datasets/spoorthiuk/us-top-10k-artists-and-their-popular-songs/?select=Top_Songs_US.csv il dataset scelto
+- https://www.kaggle.com/datasets/ per la ricerca di un dataset 
+- https://www.kaggle.com/datasets/spoorthiuk/us-top-10k-artists-and-their-popular-songs/?select=Top_Songs_US.csv il dataset scelto
