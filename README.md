@@ -7,3 +7,7 @@ Il set di dati copre una vasta gamma di generi musicali e copre un periodo di te
 ## Documentazione
 - https://www.kaggle.com/datasets/ per la ricerca di un dataset 
 - https://www.kaggle.com/datasets/spoorthiuk/us-top-10k-artists-and-their-popular-songs/?select=Top_Songs_US.csv il dataset scelto
+
+## Proprietà/funzionalità utilizzate
+- cat.codes = utilizzato per convertire dati categorici (categorical data) in codici numerici. I dati categorici rappresentano dati che possono assumere un numero limitato e fisso di valori. Nel nostro caso, nel file "Artists.csv" abbiamo la colonna "Country", che contiene stringhe per rappresentare i codici delle nazioni (e.g. "CA" per Canada). Dunque, convertire questo tipo di dati in codici numerici può essere utile per alcune operazioni come la correlazione. Nel progetto, è stato utilizzato in un calcolo della correlazione e ha permesso di riportare i codici della categoria (category codes) per ogni elemento. Inoltre, ha assegnato a ciascuna categoria nella colonna "Country" un numero unico.
+- 
