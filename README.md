@@ -4,6 +4,8 @@ Progetto realizzato per il Laboratorio di Big Data, Data Mining e Data Analytics
 Per questo progetto, sono stati scelti due file csv che complessivamente raccolgono dati sulle 10 canzoni più popolari per ciascuno dei 10.000 artisti più ascoltati negli Stati Uniti.
 Il set di dati copre una vasta gamma di generi musicali e copre un periodo di tempo specifico, catturando le preferenze dinamiche degli appassionati di musica nel Paese. Ogni voce include dettagli come il nome dell'artista, i titoli delle canzoni, le date di pubblicazione e le classifiche di popolarità basate su metriche come il numero di streaming o le posizioni in classifica. 
 
+Inoltre, per comodità, è stato creato un terzo file chiamato 'Merged_dataset.csv' che contiene il merge, ossia l'unione, dei due file csv originari grazie all'ID dell'artista, essendo fattore comune tra i due file. Questo terzo file, al contrario del file chiamato 'top_songs', non presenta valori duplicati, perciò l'analisi dei dati risulta più precisa.
+
 ## Obiettivo del progetto
 L'obiettivo principale è analizzare la dinamica temporale del successo musicale, concentrandosi su diversi fattori.
 La ricerca include l'identificazione dei generi più e meno ascoltati nel tempo, l'analisi delle tendenze della popolarità delle canzoni nel corso degli anni, e la possibile individuazione di cambiamenti significativi nelle preferenze musicali. 
