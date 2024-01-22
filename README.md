@@ -10,11 +10,16 @@ Inoltre, per comodità, è stato creato un terzo file chiamato 'Merged_dataset.c
 L'obiettivo principale è analizzare la dinamica temporale del successo musicale, concentrandosi su diversi fattori.
 La ricerca include l'identificazione dei generi più e meno ascoltati nel tempo, l'analisi delle tendenze della popolarità delle canzoni nel corso degli anni, e la possibile individuazione di cambiamenti significativi nelle preferenze musicali. 
 Attraverso questa esplorazione, si mira ad ottenere una visione dettagliata dei fattori chiave che influenzano il successo delle canzoni nel dataset nel corso del tempo.
+Come analisi finale, abbiamo effettuato delle correlazioni tra alcuni fattori e la popolarità dell'artista, costituita dal numero di followers in alcuni casi e dal valore di popolarità stesso in altri.
+
+Nel progetto, a seguito delle operazioni effettuate, sono stati inseriti diversi grafici per poter visualizzare i risultati in modo più chiaro. Sono stati inoltre usati dei colori per poter categorizzare e comprendere maggiormente alcuni risultati ottenuti.
 
 ## Proprietà/funzionalità utilizzate
-- cat.codes = utilizzato per convertire dati categorici (categorical data) in codici numerici. I dati categorici rappresentano dati che possono assumere un numero limitato e fisso di valori. Nel nostro caso, nel file "Artists.csv" abbiamo la colonna "Country", che contiene stringhe per rappresentare i codici delle nazioni (e.g. "CA" per Canada). Dunque, convertire questo tipo di dati in codici numerici può essere utile per alcune operazioni come la correlazione. Nel progetto, è stato utilizzato in un calcolo della correlazione e ha permesso di riportare i codici della categoria (category codes) per ogni elemento. Inoltre, ha assegnato a ciascuna categoria nella colonna "Country" un numero unico (un identifier).
+- cat.codes (https://pandas.pydata.org/pandas-docs/stable/user_guide/categorical.html#categorical-data) = utilizzato per convertire dati categorici (categorical data) in codici numerici. I dati categorici rappresentano dati che possono assumere un numero limitato e fisso di valori. Nel nostro caso, nel file "Artists.csv" abbiamo la colonna "Country", che contiene stringhe per rappresentare i codici delle nazioni (e.g. "CA" per Canada). Dunque, convertire questo tipo di dati in codici numerici può essere utile per alcune operazioni come la correlazione. Nel progetto, è stato utilizzato in un calcolo della correlazione e ha permesso di riportare i codici della categoria (category codes) per ogni elemento. Inoltre, ha assegnato a ciascuna categoria nella colonna "Country" un numero unico (un identifier).
 
 
 ## Documentazione
 - https://www.kaggle.com/datasets/ per la ricerca di un dataset 
 - https://www.kaggle.com/datasets/spoorthiuk/us-top-10k-artists-and-their-popular-songs/?select=Top_Songs_US.csv il dataset scelto
+- https://pandas.pydata.org/pandas-docs/stable/user_guide/index.html#user-guide
+- https://pandas.pydata.org/pandas-docs/stable/reference/index.html#api
