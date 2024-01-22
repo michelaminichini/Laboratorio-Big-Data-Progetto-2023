@@ -23,3 +23,4 @@ Nel progetto, a seguito delle operazioni effettuate, sono stati inseriti diversi
 - https://www.kaggle.com/datasets/spoorthiuk/us-top-10k-artists-and-their-popular-songs/?select=Top_Songs_US.csv il dataset scelto
 - https://pandas.pydata.org/pandas-docs/stable/user_guide/index.html#user-guide
 - https://pandas.pydata.org/pandas-docs/stable/reference/index.html#api
+- https://matplotlib.org/stable/api/index.html
